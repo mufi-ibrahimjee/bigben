@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		1804BBC524AF557900C0CD12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804BBC424AF557900C0CD12 /* AppDelegate.swift */; };
 		1804BBC724AF557900C0CD12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804BBC624AF557900C0CD12 /* SceneDelegate.swift */; };
-		1804BBC924AF557900C0CD12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804BBC824AF557900C0CD12 /* ViewController.swift */; };
+		1804BBC924AF557900C0CD12 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804BBC824AF557900C0CD12 /* FirstViewController.swift */; };
 		1804BBCC24AF557900C0CD12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1804BBCA24AF557900C0CD12 /* Main.storyboard */; };
 		1804BBCF24AF557900C0CD12 /* Bigben.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1804BBCD24AF557900C0CD12 /* Bigben.xcdatamodeld */; };
 		1804BBD124AF558100C0CD12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1804BBD024AF558100C0CD12 /* Assets.xcassets */; };
 		1804BBD424AF558100C0CD12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1804BBD224AF558100C0CD12 /* LaunchScreen.storyboard */; };
 		1804BBDF24AF558100C0CD12 /* BigbenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804BBDE24AF558100C0CD12 /* BigbenTests.swift */; };
 		1804BBEA24AF558100C0CD12 /* BigbenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804BBE924AF558100C0CD12 /* BigbenUITests.swift */; };
+		1804BBF824AF72BD00C0CD12 /* ParticipantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804BBF724AF72BD00C0CD12 /* ParticipantViewController.swift */; };
+		1804BBFA24AF766D00C0CD12 /* ParticipantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804BBF924AF766D00C0CD12 /* ParticipantTableViewCell.swift */; };
+		1804BBFC24AFB5C200C0CD12 /* WinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1804BBFB24AFB5C200C0CD12 /* WinnerViewController.swift */; };
+		188AC2F724B5179B0038F025 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 188AC2F624B5179B0038F025 /* Podfile */; };
+		18C5E6C724B36F74001F57BF /* bensound-ukulele.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18C5E6C624B36F74001F57BF /* bensound-ukulele.mp3 */; };
+		3E81681B7A6916BA8863DE5C /* Pods_Bigben.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D87A33F9FAF55CDC254A46 /* Pods_Bigben.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +45,7 @@
 		1804BBC124AF557900C0CD12 /* Bigben.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bigben.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1804BBC424AF557900C0CD12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1804BBC624AF557900C0CD12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1804BBC824AF557900C0CD12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1804BBC824AF557900C0CD12 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		1804BBCB24AF557900C0CD12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1804BBCE24AF557900C0CD12 /* Bigben.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bigben.xcdatamodel; sourceTree = "<group>"; };
 		1804BBD024AF558100C0CD12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +57,14 @@
 		1804BBE524AF558100C0CD12 /* BigbenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BigbenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1804BBE924AF558100C0CD12 /* BigbenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigbenUITests.swift; sourceTree = "<group>"; };
 		1804BBEB24AF558100C0CD12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1804BBF724AF72BD00C0CD12 /* ParticipantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantViewController.swift; sourceTree = "<group>"; };
+		1804BBF924AF766D00C0CD12 /* ParticipantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantTableViewCell.swift; sourceTree = "<group>"; };
+		1804BBFB24AFB5C200C0CD12 /* WinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnerViewController.swift; sourceTree = "<group>"; };
+		188AC2F624B5179B0038F025 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		18C5E6C624B36F74001F57BF /* bensound-ukulele.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-ukulele.mp3"; sourceTree = "<group>"; };
+		228748DE27CEB82E31A20D38 /* Pods-Bigben.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bigben.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bigben/Pods-Bigben.release.xcconfig"; sourceTree = "<group>"; };
+		6B94EBECE3EA6EF07BDA657B /* Pods-Bigben.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bigben.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bigben/Pods-Bigben.debug.xcconfig"; sourceTree = "<group>"; };
+		A6D87A33F9FAF55CDC254A46 /* Pods_Bigben.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bigben.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E81681B7A6916BA8863DE5C /* Pods_Bigben.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +96,13 @@
 		1804BBB824AF557900C0CD12 = {
 			isa = PBXGroup;
 			children = (
+				188AC2F624B5179B0038F025 /* Podfile */,
 				1804BBC324AF557900C0CD12 /* Bigben */,
 				1804BBDD24AF558100C0CD12 /* BigbenTests */,
 				1804BBE824AF558100C0CD12 /* BigbenUITests */,
 				1804BBC224AF557900C0CD12 /* Products */,
+				2BD839A4822149ABC1AE2B1E /* Pods */,
+				C36A39FCF3C1A03775FEB651 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +121,16 @@
 			children = (
 				1804BBC424AF557900C0CD12 /* AppDelegate.swift */,
 				1804BBC624AF557900C0CD12 /* SceneDelegate.swift */,
-				1804BBC824AF557900C0CD12 /* ViewController.swift */,
+				1804BBC824AF557900C0CD12 /* FirstViewController.swift */,
 				1804BBCA24AF557900C0CD12 /* Main.storyboard */,
 				1804BBD024AF558100C0CD12 /* Assets.xcassets */,
 				1804BBD224AF558100C0CD12 /* LaunchScreen.storyboard */,
 				1804BBD524AF558100C0CD12 /* Info.plist */,
 				1804BBCD24AF557900C0CD12 /* Bigben.xcdatamodeld */,
+				1804BBF724AF72BD00C0CD12 /* ParticipantViewController.swift */,
+				1804BBFB24AFB5C200C0CD12 /* WinnerViewController.swift */,
+				1804BBF924AF766D00C0CD12 /* ParticipantTableViewCell.swift */,
+				18C5E6C624B36F74001F57BF /* bensound-ukulele.mp3 */,
 			);
 			path = Bigben;
 			sourceTree = "<group>";
@@ -131,6 +153,23 @@
 			path = BigbenUITests;
 			sourceTree = "<group>";
 		};
+		2BD839A4822149ABC1AE2B1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B94EBECE3EA6EF07BDA657B /* Pods-Bigben.debug.xcconfig */,
+				228748DE27CEB82E31A20D38 /* Pods-Bigben.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C36A39FCF3C1A03775FEB651 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6D87A33F9FAF55CDC254A46 /* Pods_Bigben.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1804BBEE24AF558100C0CD12 /* Build configuration list for PBXNativeTarget "Bigben" */;
 			buildPhases = (
+				1899AE01E23FBAB4139EFB74 /* [CP] Check Pods Manifest.lock */,
 				1804BBBD24AF557900C0CD12 /* Sources */,
 				1804BBBE24AF557900C0CD12 /* Frameworks */,
 				1804BBBF24AF557900C0CD12 /* Resources */,
+				4C3B93A89CE94D1B61B6D152 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +276,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188AC2F724B5179B0038F025 /* Podfile in Resources */,
+				18C5E6C724B36F74001F57BF /* bensound-ukulele.mp3 in Resources */,
 				1804BBD424AF558100C0CD12 /* LaunchScreen.storyboard in Resources */,
 				1804BBD124AF558100C0CD12 /* Assets.xcassets in Resources */,
 				1804BBCC24AF557900C0CD12 /* Main.storyboard in Resources */,
@@ -257,15 +300,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1899AE01E23FBAB4139EFB74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bigben-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C3B93A89CE94D1B61B6D152 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Bigben/Pods-Bigben-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SAConfettiView/SAConfettiView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SAConfettiView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bigben/Pods-Bigben-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1804BBBD24AF557900C0CD12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1804BBC924AF557900C0CD12 /* ViewController.swift in Sources */,
+				1804BBC924AF557900C0CD12 /* FirstViewController.swift in Sources */,
 				1804BBC524AF557900C0CD12 /* AppDelegate.swift in Sources */,
 				1804BBCF24AF557900C0CD12 /* Bigben.xcdatamodeld in Sources */,
 				1804BBC724AF557900C0CD12 /* SceneDelegate.swift in Sources */,
+				1804BBFC24AFB5C200C0CD12 /* WinnerViewController.swift in Sources */,
+				1804BBF824AF72BD00C0CD12 /* ParticipantViewController.swift in Sources */,
+				1804BBFA24AF766D00C0CD12 /* ParticipantTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,9 +521,11 @@
 		};
 		1804BBEF24AF558100C0CD12 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B94EBECE3EA6EF07BDA657B /* Pods-Bigben.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WY2C3NAW89;
 				INFOPLIST_FILE = Bigben/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,9 +540,11 @@
 		};
 		1804BBF024AF558100C0CD12 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 228748DE27CEB82E31A20D38 /* Pods-Bigben.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WY2C3NAW89;
 				INFOPLIST_FILE = Bigben/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
